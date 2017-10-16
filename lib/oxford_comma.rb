@@ -8,6 +8,7 @@ def oxford_comma(array)
   elsif array.size > 2
     last_element = array.pop
     sentence = array.join(", ")
+    binding.pry
     sentence = sentence + "and #{last_element}"
     return sentence
   end
