@@ -9,7 +9,7 @@ def oxford_comma(array)
     last_element = array.pop
     sentence = array.join(", ")
     binding.pry
-    sentence = sentence + "and #{last_element}"
+    sentence = sentence + ", and #{last_element}"
     return sentence
   end
 end
